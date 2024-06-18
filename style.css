@@ -2,4 +2,52 @@ body {
   width: 100%;
   height: 100%;
   margin: 0;
+  text-align: center;
+}
+
+nav a {
+  padding: 10px;
+  background-color: brown;
+  color: #ffffff;
+}
+
+img {
+  width: 50%;
+  align-content: center;
+}
+
+#featured-property p {
+  text-align: center;
+  width: 800px;
+  margin-left: 250px;
+  margin-right: 250px;
+}
+
+#details {
+  display: flex;
+  padding: 25px;
+  background-color: #dd2525;
+}
+
+#details div {
+  flex: 1;
+  margin: 0 10px;
+}
+
+#details h3 {
+  font-size: 1.2em;
+  margin-bottom: 10px;
+}
+
+#details p {
+  line-height: 1.6;
+}
+
+#details a {
+  color: #3c0ab2;
+  text-decoration: none;
+}
+
+#details a:hover {
+  text-decoration: underline;
 }
